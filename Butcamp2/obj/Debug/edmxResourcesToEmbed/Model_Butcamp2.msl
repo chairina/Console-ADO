@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tugasArrayModelStoreContainer" CdmEntityContainer="MyContext">
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="tugasArrayModel.Item">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="tugasArrayModel.Supplier">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_dbo_Items_dbo_Suppliers_Suppliers_Id" TypeName="tugasArrayModel.FK_dbo_Items_dbo_Suppliers_Suppliers_Id" StoreEntitySet="Items">
+      <EndProperty Name="Suppliers">
+        <ScalarProperty Name="Id" ColumnName="Suppliers_Id" />
+      </EndProperty>
+      <EndProperty Name="Items">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="Suppliers_Id" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

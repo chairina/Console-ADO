@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="252dc001511443228cfe4e0e53996d75" Name="Diagram1">
+        <EntityTypeShape EntityType="tugasArrayModel.TB_M_Items" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="tugasArrayModel.TB_M_Sell" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tugasArrayModel.TB_M_Supplier" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tugasArrayModel.TB_T_TransactionItem" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="tugasArrayModel.FK_dbo_Items_dbo_Suppliers_Suppliers_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="tugasArrayModel.FK_TB_T_Detail_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="tugasArrayModel.FK_TB_T_Detail_ToTable_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

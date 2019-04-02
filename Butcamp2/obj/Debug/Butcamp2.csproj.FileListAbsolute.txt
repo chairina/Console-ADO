@@ -1,0 +1,10 @@
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\Butcamp2.exe.config
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\Butcamp2.exe
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\Butcamp2.pdb
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\EntityFramework.dll
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\EntityFramework.SqlServer.dll
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\EntityFramework.xml
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\bin\Debug\EntityFramework.SqlServer.xml
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\obj\Debug\Butcamp2.csprojResolveAssemblyReference.cache
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\obj\Debug\Butcamp2.exe
+E:\Metrodata\Bootcamp\Week 4\Butcamp2\Butcamp2\obj\Debug\Butcamp2.pdb
